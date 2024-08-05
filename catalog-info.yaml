@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "SLSA-Provenance-Action"
+  title: "SLSA Provenance Action"
+  description: "Github Action to generate SLSA provenance"
+  tags:
+    - slsa
+    - secure-software-supply-chain
+    - github-action
+spec:
+  type: "github-action"
+  owner: "greenroom"
+  lifecycle: "experimental"
